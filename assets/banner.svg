@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" role="img" aria-label="VXL — Security-Focused Fullstack and Backend Engineer">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0e0c"/>
+      <stop offset="1" stop-color="#050504"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4f1e8"/>
+      <stop offset="1" stop-color="#c9b89a"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono  { font-family: 'SFMono-Regular','Consolas','Liberation Mono','Courier New',monospace; }
+      .label { fill: #c9b89a; font-weight: 700; }
+      .val   { fill: #c7c1b4; }
+      .cursor{ fill: #e8e2d6; animation: blink 1.05s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Card -->
+  <rect x="2" y="2" width="896" height="316" rx="14" fill="url(#bgGrad)" stroke="#2a2723" stroke-width="2"/>
+
+  <!-- Ambient grid -->
+  <g stroke="#1a1714" stroke-width="1">
+    <line x1="16" y1="120" x2="884" y2="120"/>
+    <line x1="16" y1="200" x2="884" y2="200"/>
+  </g>
+
+  <!-- Terminal top bar (monochrome warm dots) -->
+  <circle cx="30" cy="34" r="5" fill="#6e6a60"/>
+  <circle cx="48" cy="34" r="5" fill="#a9a093"/>
+  <circle cx="66" cy="34" r="5" fill="#e8e2d6"/>
+  <text x="92" y="39" class="mono" font-size="13" fill="#8a8377">vxl@secure: ~/profile</text>
+  <line x1="16" y1="54" x2="884" y2="54" stroke="#221f1b" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="48" y="134" class="mono" font-size="70" font-weight="800" fill="url(#accentGrad)" filter="url(#glow)">VXL</text>
+  <text x="196" y="134" class="mono" font-size="19" fill="#8a8377">// Hamza</text>
+
+  <!-- Role -->
+  <text x="48" y="172" class="mono" font-size="17" fill="#e8e2d6">&gt; Security-Focused Fullstack &amp; Backend Engineer</text>
+
+  <!-- Quote -->
+  <text x="48" y="196" class="mono" font-size="13.5" fill="#6e6a60" font-style="italic">// architecting systems that are secure by design</text>
+
+  <!-- Info rows -->
+  <text x="48" y="240" class="mono" font-size="14">
+    <tspan class="label">STACK  </tspan><tspan class="val"> : Python · Next.js · PostgreSQL · Node.js</tspan>
+  </text>
+  <text x="48" y="266" class="mono" font-size="14">
+    <tspan class="label">FOCUS  </tspan><tspan class="val"> : Cybersecurity · Backend Systems · AI-Assisted Eng.</tspan>
+  </text>
+  <text x="48" y="292" class="mono" font-size="14">
+    <tspan class="label">REGION </tspan><tspan class="val"> : Algeria   |   </tspan><tspan class="label">HANDLE </tspan><tspan class="val"> : @hamzavxl </tspan><tspan class="cursor">_</tspan>
+  </text>
+
+  <!-- Security shield + keyhole (right) -->
+  <g transform="translate(712,92)" filter="url(#glow)">
+    <path d="M65 4 L126 26 V78 C126 118 98 140 65 152 C32 140 4 118 4 78 V26 Z"
+          fill="rgba(232,226,214,0.05)" stroke="#e8e2d6" stroke-width="2"/>
+    <circle cx="65" cy="70" r="13" fill="none" stroke="#c9b89a" stroke-width="3"/>
+    <path d="M65 78 L59 100 H71 Z" fill="#c9b89a"/>
+    <path d="M40 44 L58 44 M40 58 L72 58" stroke="#2a2723" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  </g>
+</svg>

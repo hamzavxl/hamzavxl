@@ -1,0 +1,10 @@
+# Personal — keep local, never publish to the profile repo
+vxl_ats_profile.pdf
+*.pdf
+
+# Preview / scratch
+_*.html
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
