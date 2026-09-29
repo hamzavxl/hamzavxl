@@ -15,13 +15,12 @@
 }
 </style>
 
-                <path id='path0'>
-                            <!-- Single line -->
-                                <animate id='d0' attributeName='d' begin='0s;d3.end'
-                    dur='6000ms' fill='remove'
-                    values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
-                    </path>
-    <text font-family='"Fira Code", monospace' fill='#E8E2D6' font-size='23'
+    <path id='path0'>
+        <animate id='d0' attributeName='d' begin='0s;d3.end'
+            dur='6000ms' fill='remove'
+            values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
+    </path>
+    <text font-family='"Fira Code", monospace' fill='#FF3366' font-size='23' font-weight='700'
         dominant-baseline='middle'
         x='50%' text-anchor='middle'
         letter-spacing='normal'>
@@ -29,13 +28,13 @@
             whoami: Hamza (aka VXL)
         </textPath>
     </text>
-        <path id='path1'>
-                            <!-- Single line -->
-                                <animate id='d1' attributeName='d' begin='d0.end'
-                    dur='6000ms' fill='remove'
-                    values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
-                    </path>
-    <text font-family='"Fira Code", monospace' fill='#E8E2D6' font-size='23'
+
+    <path id='path1'>
+        <animate id='d1' attributeName='d' begin='d0.end'
+            dur='6000ms' fill='remove'
+            values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
+    </path>
+    <text font-family='"Fira Code", monospace' fill='#00F2FE' font-size='23' font-weight='700'
         dominant-baseline='middle'
         x='50%' text-anchor='middle'
         letter-spacing='normal'>
@@ -43,13 +42,13 @@
             Security-Focused Fullstack &amp; Backend Engineer
         </textPath>
     </text>
-        <path id='path2'>
-                            <!-- Single line -->
-                                <animate id='d2' attributeName='d' begin='d1.end'
-                    dur='6000ms' fill='remove'
-                    values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
-                    </path>
-    <text font-family='"Fira Code", monospace' fill='#E8E2D6' font-size='23'
+
+    <path id='path2'>
+        <animate id='d2' attributeName='d' begin='d1.end'
+            dur='6000ms' fill='remove'
+            values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
+    </path>
+    <text font-family='"Fira Code", monospace' fill='#FFB703' font-size='23' font-weight='700'
         dominant-baseline='middle'
         x='50%' text-anchor='middle'
         letter-spacing='normal'>
@@ -57,13 +56,13 @@
             Python · Next.js · PostgreSQL · Zero-Trust
         </textPath>
     </text>
-        <path id='path3'>
-                            <!-- Single line -->
-                                <animate id='d3' attributeName='d' begin='d2.end'
-                    dur='6000ms' fill='remove'
-                    values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
-                    </path>
-    <text font-family='"Fira Code", monospace' fill='#E8E2D6' font-size='23'
+
+    <path id='path3'>
+        <animate id='d3' attributeName='d' begin='d2.end'
+            dur='6000ms' fill='remove'
+            values='m0,24 h0 ; m0,24 h680 ; m0,24 h680 ; m0,24 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
+    </path>
+    <text font-family='"Fira Code", monospace' fill='#38EF7D' font-size='23' font-weight='700'
         dominant-baseline='middle'
         x='50%' text-anchor='middle'
         letter-spacing='normal'>

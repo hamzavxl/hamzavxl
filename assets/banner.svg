@@ -1,69 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" role="img" aria-label="VXL — Security-Focused Fullstack and Backend Engineer">
   <defs>
+    <!-- Background gradient -->
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f0e0c"/>
-      <stop offset="1" stop-color="#050504"/>
+      <stop offset="0%" stop-color="#0c0e14"/>
+      <stop offset="50%" stop-color="#090a0f"/>
+      <stop offset="100%" stop-color="#050608"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f4f1e8"/>
-      <stop offset="1" stop-color="#c9b89a"/>
+
+    <!-- Vibrant Visor Crimson-Orange Gradient -->
+    <linearGradient id="visorGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff3366"/>
+      <stop offset="50%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#f7c844"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+
+    <!-- Cyber Cyan Accent Gradient -->
+    <linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <!-- Glowing Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+
     <style>
       .mono  { font-family: 'SFMono-Regular','Consolas','Liberation Mono','Courier New',monospace; }
-      .label { fill: #c9b89a; font-weight: 700; }
-      .val   { fill: #c7c1b4; }
-      .cursor{ fill: #e8e2d6; animation: blink 1.05s steps(1) infinite; }
+      .lbl-red   { fill: #ff4d6d; font-weight: 700; }
+      .lbl-cyan  { fill: #00d2ff; font-weight: 700; }
+      .lbl-gold  { fill: #ffb703; font-weight: 700; }
+      .val       { fill: #e2e8f0; }
+      .cursor    { fill: #ff3366; animation: blink 1s steps(1) infinite; }
       @keyframes blink { 50% { opacity: 0; } }
     </style>
   </defs>
 
-  <!-- Card -->
-  <rect x="2" y="2" width="896" height="316" rx="14" fill="url(#bgGrad)" stroke="#2a2723" stroke-width="2"/>
+  <!-- Card Background -->
+  <rect x="2" y="2" width="896" height="316" rx="16" fill="url(#bgGrad)" stroke="#1e2433" stroke-width="2"/>
 
-  <!-- Ambient grid -->
-  <g stroke="#1a1714" stroke-width="1">
-    <line x1="16" y1="120" x2="884" y2="120"/>
-    <line x1="16" y1="200" x2="884" y2="200"/>
+  <!-- Ambient Grid Lines -->
+  <g stroke="#141a26" stroke-width="1">
+    <line x1="20" y1="120" x2="880" y2="120"/>
+    <line x1="20" y1="205" x2="880" y2="205"/>
   </g>
 
-  <!-- Terminal top bar (monochrome warm dots) -->
-  <circle cx="30" cy="34" r="5" fill="#6e6a60"/>
-  <circle cx="48" cy="34" r="5" fill="#a9a093"/>
-  <circle cx="66" cy="34" r="5" fill="#e8e2d6"/>
-  <text x="92" y="39" class="mono" font-size="13" fill="#8a8377">vxl@secure: ~/profile</text>
-  <line x1="16" y1="54" x2="884" y2="54" stroke="#221f1b" stroke-width="1"/>
+  <!-- Top Terminal Bar -->
+  <circle cx="34" cy="34" r="5.5" fill="#ff5f56"/>
+  <circle cx="54" cy="34" r="5.5" fill="#ffbd2e"/>
+  <circle cx="74" cy="34" r="5.5" fill="#27c93f"/>
+  <text x="100" y="39" class="mono" font-size="13" fill="#64748b">vxl@root: ~/security-ops</text>
+  <line x1="16" y1="56" x2="884" y2="56" stroke="#1a202c" stroke-width="1"/>
 
-  <!-- Title -->
-  <text x="48" y="134" class="mono" font-size="70" font-weight="800" fill="url(#accentGrad)" filter="url(#glow)">VXL</text>
-  <text x="196" y="134" class="mono" font-size="19" fill="#8a8377">// Hamza</text>
+  <!-- Title & Handle -->
+  <text x="48" y="136" class="mono" font-size="72" font-weight="900" fill="url(#visorGrad)" filter="url(#neonGlow)">VXL</text>
+  <text x="210" y="136" class="mono" font-size="20" fill="#94a3b8">// Hamza</text>
 
-  <!-- Role -->
-  <text x="48" y="172" class="mono" font-size="17" fill="#e8e2d6">&gt; Security-Focused Fullstack &amp; Backend Engineer</text>
+  <!-- Role Subtitle -->
+  <text x="48" y="174" class="mono" font-size="17" font-weight="600" fill="#f8fafc">&gt; Security-Focused Fullstack &amp; Backend Engineer</text>
 
-  <!-- Quote -->
-  <text x="48" y="196" class="mono" font-size="13.5" fill="#6e6a60" font-style="italic">// architecting systems that are secure by design</text>
+  <!-- Tagline Quote -->
+  <text x="48" y="198" class="mono" font-size="13.5" fill="#64748b" font-style="italic">// architecting hardened systems that are secure by design</text>
 
-  <!-- Info rows -->
-  <text x="48" y="240" class="mono" font-size="14">
-    <tspan class="label">STACK  </tspan><tspan class="val"> : Python · Next.js · PostgreSQL · Node.js</tspan>
+  <!-- Telemetry Info Rows -->
+  <text x="48" y="242" class="mono" font-size="14">
+    <tspan class="lbl-red">STACK  </tspan><tspan class="val"> : Python · Next.js · PostgreSQL · FastAPI · Express</tspan>
   </text>
-  <text x="48" y="266" class="mono" font-size="14">
-    <tspan class="label">FOCUS  </tspan><tspan class="val"> : Cybersecurity · Backend Systems · AI-Assisted Eng.</tspan>
+  <text x="48" y="268" class="mono" font-size="14">
+    <tspan class="lbl-cyan">FOCUS  </tspan><tspan class="val"> : Zero-Trust · Cryptographic Verification · Anti-Fraud</tspan>
   </text>
-  <text x="48" y="292" class="mono" font-size="14">
-    <tspan class="label">REGION </tspan><tspan class="val"> : Algeria   |   </tspan><tspan class="label">HANDLE </tspan><tspan class="val"> : @hamzavxl </tspan><tspan class="cursor">_</tspan>
+  <text x="48" y="294" class="mono" font-size="14">
+    <tspan class="lbl-gold">REGION </tspan><tspan class="val"> : Algeria   |   </tspan><tspan class="lbl-cyan">HANDLE </tspan><tspan class="val"> : @hamzavxl </tspan><tspan class="cursor">_</tspan>
   </text>
 
-  <!-- Security shield + keyhole (right) -->
-  <g transform="translate(712,92)" filter="url(#glow)">
-    <path d="M65 4 L126 26 V78 C126 118 98 140 65 152 C32 140 4 118 4 78 V26 Z"
-          fill="rgba(232,226,214,0.05)" stroke="#e8e2d6" stroke-width="2"/>
-    <circle cx="65" cy="70" r="13" fill="none" stroke="#c9b89a" stroke-width="3"/>
-    <path d="M65 78 L59 100 H71 Z" fill="#c9b89a"/>
-    <path d="M40 44 L58 44 M40 58 L72 58" stroke="#2a2723" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <!-- Glowing Cyber Security Shield (Right) -->
+  <g transform="translate(705,88)" filter="url(#neonGlow)">
+    <path d="M68 4 L132 28 V82 C132 125 102 148 68 160 C34 148 4 125 4 82 V28 Z"
+          fill="rgba(255, 51, 102, 0.08)" stroke="url(#visorGrad)" stroke-width="2.5"/>
+    <circle cx="68" cy="74" r="14" fill="none" stroke="#00f2fe" stroke-width="3"/>
+    <path d="M68 82 L61 106 H75 Z" fill="#00f2fe"/>
+    <path d="M42 46 L60 46 M42 60 L76 60" stroke="#334155" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
   </g>
 </svg>

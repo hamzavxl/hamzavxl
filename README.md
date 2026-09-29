@@ -1,17 +1,17 @@
 <!-- ============================================================= -->
 <!--                     VXL · Hamza · hamzavxl                    -->
 <!--        Security-Focused Fullstack & Backend Engineer          -->
-<!--        Theme: warm monochrome "stealth" (ink + cream)         -->
+<!--        Theme: Stealth Cyber Neon (Crimson, Cyan, Gold)        -->
 <!-- ============================================================= -->
 
 <div align="center">
 
-  <!-- Custom terminal banner -->
+  <!-- Custom vibrant terminal banner -->
   <img src="assets/banner.svg" width="100%" alt="VXL — Security-Focused Fullstack & Backend Engineer" />
 
   <br /><br />
 
-  <!-- Animated typing intro -->
+  <!-- Animated typing intro with vibrant colors -->
   <a href="https://github.com/hamzavxl">
     <img
       src="assets/icons/typing.svg"
@@ -22,9 +22,9 @@
   <br />
 
   <p>
-    <img src="https://komarev.com/ghpvc/?username=hamzavxl&label=Profile%20Views&color=E8E2D6&style=flat-square" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=hamzavxl&label=Profile%20Views&color=FF3366&style=flat-square" alt="Profile Views" />
     &nbsp;
-    <img src="https://img.shields.io/github/followers/hamzavxl?label=Followers&style=flat-square&color=E8E2D6&labelColor=1A1714&logo=github&logoColor=E8E2D6" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/hamzavxl?label=Followers&style=flat-square&color=00F2FE&labelColor=0A0C10&logo=github&logoColor=00F2FE" alt="Followers" />
     &nbsp;
     <img src="assets/icons/algeria.svg" alt="Algeria" />
     &nbsp;
@@ -59,7 +59,7 @@
       </ul>
     </td>
     <td width="36%" align="center" valign="middle">
-      <img src="assets/vxl_avatar.jpg" width="240" alt="VXL" />
+      <img src="assets/vxl_avatar.jpg" width="240" style="border-radius: 16px;" alt="Hamza VXL" />
     </td>
   </tr>
 </table>
@@ -79,7 +79,7 @@
     <img src="assets/icons/css3.svg" alt="CSS3" />
   </p>
 
-  <p><b>Backend</b></p>
+  <p><b>Backend &amp; Frameworks</b></p>
   <p>
     <img src="assets/icons/nodejs.svg" alt="Node.js" />
     <img src="assets/icons/express.svg" alt="Express" />
@@ -109,7 +109,7 @@
 
 <div align="center">
 
-  <p><i>Security isn't a feature I bolt on — it's the foundation I build from.</i></p>
+  <p><i>"Security isn't a feature I bolt on — it's the foundation I build from."</i></p>
   <p>
     <img src="assets/icons/sec-zero-trust.svg" alt="Zero-Trust" />
     <img src="assets/icons/sec-ssl-tls.svg" alt="SSL/TLS" />
@@ -128,9 +128,9 @@
 <table border="0" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <p><b>▸ Secure E-Commerce Platform</b><br />
-      High-traffic store, hardened against the OWASP Top 10 with payload encryption and pooled sessions.<br />
-      <code>Express.js</code> · <code>Next.js</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>Helmet.js</code></p>
+      <p><b><a href="https://github.com/hamzavxl/binance-pay-cli">▸ Binance Pay &amp; BEP-20 Payment Gateway CLI</a></b><br />
+      Zero-dependency dual-channel verification tool with anti-replay double-spending fraud prevention.<br />
+      <code>Python</code> · <code>Binance Pay C2C</code> · <code>BEP-20</code> · <code>Security Hardened</code></p>
     </td>
     <td width="50%" valign="top">
       <p><b>▸ VXL-AGEINT — Autonomous AI Agent Layer</b><br />
@@ -140,14 +140,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <p><b>▸ Secure E-Commerce Platform</b><br />
+      High-traffic store, hardened against the OWASP Top 10 with payload encryption and pooled sessions.<br />
+      <code>Express.js</code> · <code>Next.js</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>Helmet.js</code></p>
+    </td>
+    <td width="50%" valign="top">
       <p><b>▸ Automotive Services Web App</b><br />
       Responsive fullstack app with secure API routes and optimized DB indexing for faster response times.<br />
       <code>Next.js</code> · <code>JavaScript</code> · <code>REST APIs</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <p><b>▸ Scalable Backend Service</b><br />
-      Request validation and secure token-based authentication built to scale.<br />
-      <code>Python</code> · <code>Express</code> · <code>JWT</code></p>
     </td>
   </tr>
 </table>
